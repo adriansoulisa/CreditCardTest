@@ -13,7 +13,7 @@ git clone <url repository> <folder tujuan>
 
 <h2>Step running the project:</h2>
 
-<h3>1. Open Test Suites in Tests Explorer</h3>>
+<h3>1. Open Test Suites in Tests Explorer</h3>
 <img src="images/Screen Shot 2021-02-06 at 02.50.03.png" width="200" height="250">
 <h3>2. Install the plugin for make a report after running test case in katalon</h3>
 <img src="images/Screen Shot 2021-02-06 at 03.33.11.png">
@@ -28,7 +28,7 @@ git clone <url repository> <folder tujuan>
 <h3>3. Change Profile from 'Default' to 'Data'</h3>
 <img src="images/Screen Shot 2021-02-06 at 02.55.08.png" width="300" height="100">
 <p>Before run test suites,change the profile become to 'Data' then </p>
-<h3>3. Running the test suites</h3>
+<h3>4. Running the test suites</h3>
 <img src="images/Screen Shot 2021-02-06 at 02.55.27.png" width="400" height="100">
 <p>When scenario test has been success</p>
 <p>Check on 'Report' Folder in test explorer</p>
