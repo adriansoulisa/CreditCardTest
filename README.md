@@ -31,7 +31,7 @@ git clone <url repository> <folder tujuan>
 <h3>4. Running the test suites</h3>
 <img src="images/Screen Shot 2021-02-06 at 02.55.27.png" width="400" height="100">
 <p>When scenario test has been success</p>
-<img src="images/Screen Shot 2021-02-06 at 03.35.37" width="300" height="100">
+<img src="images/Screen Shot 2021-02-06 at 03.35.37.png" width="550" height="100">
 <p>Check on 'Report' Folder in test explorer</p>
 <img src="images/Screen Shot 2021-02-06 at 02.58.47.png" width="300" height="150">
 
