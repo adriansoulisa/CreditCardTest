@@ -24,4 +24,9 @@
       <initValue>'4tAN/DuJV7Y='</initValue>
       <name>BankOTP</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4911 1111 1111 1113'</initValue>
+      <name>UnsucsessCardNumber</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

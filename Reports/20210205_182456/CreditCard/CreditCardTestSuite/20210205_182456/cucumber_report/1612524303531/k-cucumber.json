@@ -1,0 +1,93 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "61688dfd-b3ad-49b3-8085-cc928fbd8c97",
+        "line": 6,
+        "name": "Checkout CreditCard",
+        "description": "",
+        "id": "credit-card-success;checkout-creditcard",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3657336761,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to checkout pillow",
+            "match": {
+              "location": "SuccessTransaction.I_want_to_checkout_pillow()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "3c988f55-ef67-4c5c-b745-ae69c6917794"
+          },
+          {
+            "result": {
+              "duration": 1824545628,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click checkout in the shooping cart",
+            "match": {
+              "location": "SuccessTransaction.I_click_checkout_in_the_shooping_cart()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4b756970-327f-4e0e-bca0-56e3dc86afea"
+          },
+          {
+            "result": {
+              "duration": 5503700285,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click credit card method and insert the number",
+            "match": {
+              "location": "SuccessTransaction.I_click_credit_card_method_and_insert_the_number()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "52407d41-a390-4835-a319-614d42150ab1"
+          },
+          {
+            "result": {
+              "duration": 98824757,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the transaction will be successfull",
+            "match": {
+              "location": "SuccessTransaction.Verify_the_transaction_will_be_successfull()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "f0149ec5-48ba-499f-914e-2fb189e2cdca"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessTransaction"
+          },
+          {
+            "name": "@SuccessTransaction"
+          }
+        ]
+      }
+    ],
+    "name": "Credit Card Success",
+    "description": "  I want to success transaction",
+    "id": "credit-card-success",
+    "keyword": "Feature",
+    "uri": "/Users/adrian.soulisa/Music/CreditCardTest/Include/features/BDD/SuccessTransaction.feature",
+    "tags": [
+      {
+        "name": "@SuccessTransaction",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

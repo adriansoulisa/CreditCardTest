@@ -29,6 +29,11 @@ public class GlobalVariable {
      */
     public static Object BankOTP
      
+    /**
+     * <p></p>
+     */
+    public static Object UnsucsessCardNumber
+     
 
     static {
         try {
@@ -40,6 +45,7 @@ public class GlobalVariable {
             ExpiryDate = selectedVariables['ExpiryDate']
             CVVNumber = selectedVariables['CVVNumber']
             BankOTP = selectedVariables['BankOTP']
+            UnsucsessCardNumber = selectedVariables['UnsucsessCardNumber']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

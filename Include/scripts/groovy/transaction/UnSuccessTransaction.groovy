@@ -44,27 +44,27 @@ import cucumber.api.java.en.When
 
 
 
-class SuccessTransaction {
+class UnSuccessTransaction {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I want to checkout pillow")
-	def I_want_to_checkout_pillow() {
+	@Given("I want to checkout the pillow")
+	def I_want_to_checkout_the_pillow() {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://demo.midtrans.com/')
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/a_BUY NOW'))
 	}
 
-	@When("I click checkout in the shooping cart")
-	def I_click_checkout_in_the_shooping_cart() {
+	@When("I click checkout in the shooping cart page")
+	def I_click_checkout_in_the_shooping_cart_page() {
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/div_CHECKOUT'))
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/a_Continue'))
 	}
 
-	@And("I click credit card method and insert the number")
-	def I_click_credit_card_method_and_insert_the_number() {
+	@And("I click credit card method and insert the numbers")
+	def I_click_credit_card_method_and_insert_the_numbers() {
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/a_CreditDebit CardPay with Visa, MasterCard_b6120b'))
-		WebUI.setText(findTestObject('Object Repository/Page_Sample Store/input_sample-store-1612440358_cardnumber'), GlobalVariable.CardNumber)
+		WebUI.setText(findTestObject('Object Repository/Page_Sample Store/input_sample-store-1612440358_cardnumber'), GlobalVariable.UnsucsessCardNumber)
 		WebUI.setText(findTestObject('Object Repository/Page_Sample Store/input'), GlobalVariable.ExpiryDate)
 		WebUI.setText(findTestObject('Object Repository/Page_Sample Store/input_1'), GlobalVariable.CVVNumber)
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/a_Pay Now'))
@@ -73,8 +73,8 @@ class SuccessTransaction {
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/a_Done'))
 	}
 
-	@Then("Verify the transaction will be successfull")
-	def Verify_the_transaction_will_be_successfull() {
+	@Then("Verify the transaction will be unsuccessfull")
+	def Verify_the_transaction_will_be_unsuccessfull() {
 		WebUI.closeBrowser()
 	}
 }
