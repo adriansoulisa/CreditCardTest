@@ -32,8 +32,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/adrian.soulisa/Music/CreditCardTest/Reports/20210205_182456/CreditCard/CreditCardTestSuite/20210205_182456/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/adrian.soulisa/Music/CreditCardTest/Reports/20210206_021827/CreditCard/CreditCardTestSuite/20210206_021828/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/CreditCard/CreditCardTestSuite', suiteProperties, new File("/Users/adrian.soulisa/Music/CreditCardTest/Reports/20210205_182456/CreditCard/CreditCardTestSuite/20210205_182456/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/CreditCard/CreditCardTestSuite', suiteProperties, new File("/Users/adrian.soulisa/Music/CreditCardTest/Reports/20210206_021827/CreditCard/CreditCardTestSuite/20210206_021828/testCaseBinding"))

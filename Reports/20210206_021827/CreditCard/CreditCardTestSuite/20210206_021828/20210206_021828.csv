@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreditCardTestSuite,Chrome 88.0.4324.146,,,2021-02-06 02:18:35,2021-02-06 02:18:46,10.636s,FAILED
+,,,,,,,
+Test Cases/Test/TC-01,Chrome 88.0.4324.146,,,2021-02-06 02:18:36,2021-02-06 02:18:43,6.991s,FAILED
+"runFeatureFile(""Include/features/BDD/SuccessTransaction.feature"")",Chrome 88.0.4324.146,,,2021-02-06 02:18:36,2021-02-06 02:18:43,6.727s,FAILED
+,,,,,,,
+Test Cases/Test/TC-02,Chrome 88.0.4324.146,,,2021-02-06 02:18:43,2021-02-06 02:18:46,3.109s,FAILED
+"runFeatureFile(""Include/features/BDD/UnsuccessfullTransaction.feature"")",Chrome 88.0.4324.146,,,2021-02-06 02:18:43,2021-02-06 02:18:46,2.884s,FAILED

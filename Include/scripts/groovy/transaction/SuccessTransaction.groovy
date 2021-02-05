@@ -60,7 +60,7 @@ class SuccessTransaction {
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/div_CHECKOUT'))
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/a_Continue'))
 	}
-
+	
 	@And("I click credit card method and insert the number")
 	def I_click_credit_card_method_and_insert_the_number() {
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/a_CreditDebit CardPay with Visa, MasterCard_b6120b'))
@@ -71,6 +71,7 @@ class SuccessTransaction {
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sample Store/input_Password_PaRes'), GlobalVariable.BankOTP)
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/button_OK'))
 		WebUI.click(findTestObject('Object Repository/Page_Sample Store/a_Done'))
+		
 	}
 
 	@Then("Verify the transaction will be successfull")
