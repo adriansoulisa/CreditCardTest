@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreditCardTestSuite" time="24.287" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="CreditCardTestSuite" tests="2" failures="0" errors="0" time="24.287" skips="0" timestamp="2021-02-06 02:57:59" hostname="adrian.soulisa - localhost" id="Test Suites/CreditCard/CreditCardTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/adrian.soulisa/Music/CreditCardTest/Reports/20210206_025753/CreditCard/CreditCardTestSuite/20210206_025753"/>
+         <property name="logFiles" value="/Users/adrian.soulisa/Music/CreditCardTest/Reports/20210206_025753/CreditCard/CreditCardTestSuite/20210206_025753/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="adrian.soulisa - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.146"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="4a33a08bc29024623c960987aee02073"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test/TC-01" time="11.593" classname="Test Cases/Test/TC-01" status="PASSED">
+         <system-out><![CDATA[2021-02-06 02:57:59 - [TEST_CASE][PASSED] - Test Cases/Test/TC-01: Test Cases/Test/TC-01
+
+2021-02-06 02:58:00 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/BDD/SuccessTransaction.feature"): Feature file: 'Include/features/BDD/SuccessTransaction.feature' was passed
+
+2021-02-06 02:58:00 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/BDD/SuccessTransaction.feature' and extract report to folder: '/Users/adrian.soulisa/Music/CreditCardTest/Reports/20210206_025753/CreditCard/CreditCardTestSuite/20210206_025753/cucumber_report/1612555080054'...
+
+2021-02-06 02:58:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Checkout CreditCard: SCENARIO Checkout CreditCard
+
+2021-02-06 02:58:00 - [TEST_STEP][PASSED] - I want to checkout pillow: I want to checkout pillow
+
+2021-02-06 02:58:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-06 02:58:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-06 02:58:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-06 02:58:03 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-02-06 02:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_BUY NOW' is clicked on
+
+2021-02-06 02:58:03 - [MESSAGE][PASSED] - I want to checkout pillow
+
+2021-02-06 02:58:03 - [TEST_STEP][PASSED] - I click checkout in the shooping cart: I click checkout in the shooping cart
+
+2021-02-06 02:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/div_CHECKOUT' is clicked on
+
+2021-02-06 02:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_Continue' is clicked on
+
+2021-02-06 02:58:05 - [MESSAGE][PASSED] - I click checkout in the shooping cart
+
+2021-02-06 02:58:05 - [TEST_STEP][PASSED] - I click credit card method and insert the number: I click credit card method and insert the number
+
+2021-02-06 02:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_CreditDebit CardPay with Visa, MasterCard_b6120b' is clicked on
+
+2021-02-06 02:58:06 - [MESSAGE][PASSED] - Text '4811 1111 1111 1114' is set on object 'Object Repository/Page_Sample Store/input_sample-store-1612440358_cardnumber'
+
+2021-02-06 02:58:07 - [MESSAGE][PASSED] - Text '02/21' is set on object 'Object Repository/Page_Sample Store/input'
+
+2021-02-06 02:58:07 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Sample Store/input_1'
+
+2021-02-06 02:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_Pay Now' is clicked on
+
+2021-02-06 02:58:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Sample Store/input_Password_PaRes'. Try using Self-healing.
+
+2021-02-06 02:58:09 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Sample Store/input_Password_PaRes' was broken. Propose an alternative one: '//input[@id='PaRes']'.
+
+2021-02-06 02:58:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sample Store/input_Password_PaRes'
+
+2021-02-06 02:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/button_OK' is clicked on
+
+2021-02-06 02:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_Done' is clicked on
+
+2021-02-06 02:58:11 - [MESSAGE][PASSED] - I click credit card method and insert the number
+
+2021-02-06 02:58:11 - [TEST_STEP][PASSED] - Verify the transaction will be successfull: Verify the transaction will be successfull
+
+2021-02-06 02:58:11 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-06 02:58:11 - [MESSAGE][PASSED] - Verify the transaction will be successfull
+
+2021-02-06 02:58:11 - [MESSAGE][PASSED] - Feature file: 'Include/features/BDD/SuccessTransaction.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test/TC-02" time="9.295" classname="Test Cases/Test/TC-02" status="PASSED">
+         <system-out><![CDATA[2021-02-06 02:58:11 - [TEST_CASE][PASSED] - Test Cases/Test/TC-02: Test Cases/Test/TC-02
+
+2021-02-06 02:58:11 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/BDD/UnsuccessfullTransaction.feature"): Feature file: 'Include/features/BDD/UnsuccessfullTransaction.feature' was passed
+
+2021-02-06 02:58:11 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/BDD/UnsuccessfullTransaction.feature' and extract report to folder: '/Users/adrian.soulisa/Music/CreditCardTest/Reports/20210206_025753/CreditCard/CreditCardTestSuite/20210206_025753/cucumber_report/1612555091518'...
+
+2021-02-06 02:58:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Checkout unsuccessfull Credit Card: SCENARIO Checkout unsuccessfull Credit Card
+
+2021-02-06 02:58:11 - [TEST_STEP][PASSED] - I want to checkout the pillow: I want to checkout the pillow
+
+2021-02-06 02:58:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-06 02:58:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-06 02:58:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-06 02:58:13 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-02-06 02:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_BUY NOW' is clicked on
+
+2021-02-06 02:58:13 - [MESSAGE][PASSED] - I want to checkout the pillow
+
+2021-02-06 02:58:13 - [TEST_STEP][PASSED] - I click checkout in the shooping cart page: I click checkout in the shooping cart page
+
+2021-02-06 02:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/div_CHECKOUT' is clicked on
+
+2021-02-06 02:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_Continue' is clicked on
+
+2021-02-06 02:58:15 - [MESSAGE][PASSED] - I click checkout in the shooping cart page
+
+2021-02-06 02:58:15 - [TEST_STEP][PASSED] - I click credit card method and insert the numbers: I click credit card method and insert the numbers
+
+2021-02-06 02:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_CreditDebit CardPay with Visa, MasterCard_b6120b' is clicked on
+
+2021-02-06 02:58:16 - [MESSAGE][PASSED] - Text '4911 1111 1111 1113' is set on object 'Object Repository/Page_Sample Store/input_sample-store-1612440358_cardnumber'
+
+2021-02-06 02:58:16 - [MESSAGE][PASSED] - Text '02/21' is set on object 'Object Repository/Page_Sample Store/input'
+
+2021-02-06 02:58:17 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Sample Store/input_1'
+
+2021-02-06 02:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_Pay Now' is clicked on
+
+2021-02-06 02:58:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Sample Store/input_Password_PaRes'. Try using Self-healing.
+
+2021-02-06 02:58:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Sample Store/input_Password_PaRes' was broken. Propose an alternative one: '//input[@id='PaRes']'.
+
+2021-02-06 02:58:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sample Store/input_Password_PaRes'
+
+2021-02-06 02:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/button_OK' is clicked on
+
+2021-02-06 02:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Store/a_Done' is clicked on
+
+2021-02-06 02:58:20 - [MESSAGE][PASSED] - I click credit card method and insert the numbers
+
+2021-02-06 02:58:20 - [TEST_STEP][PASSED] - Verify the transaction will be unsuccessfull: Verify the transaction will be unsuccessfull
+
+2021-02-06 02:58:20 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-06 02:58:20 - [MESSAGE][PASSED] - Verify the transaction will be unsuccessfull
+
+2021-02-06 02:58:20 - [MESSAGE][PASSED] - Feature file: 'Include/features/BDD/UnsuccessfullTransaction.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-06 02:57:59 - [TEST_SUITE][PASSED] - CreditCardTestSuite: Test Cases/Test/TC-02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

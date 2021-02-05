@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Sample Store/input_Password_PaRes",
+      "brokenLocator": "//input[@id\u003d\u0027PaRes\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027PaRes\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210206_025753/CreditCard/CreditCardTestSuite/20210206_025753/Object Repository/Page_Sample Store/input_Password_PaRes_attributes.png"
+    }
+  ]
+}
