@@ -7,6 +7,7 @@ repository able to see in this repository
 
 ```
 git clone <url repository> <folder tujuan>
+example: git clone<https://github.com/adriansoulisa/CreditCardTest> <users/katalon>
 ```
 
 <p>After clone the repository then open project katalon</p>
@@ -46,7 +47,5 @@ git clone <url repository> <folder tujuan>
 ./katalonc -noSplash -runMode=console -projectPath="/Users/adrian.soulisa/Music/CreditCardTest/testing.prj" -retry=0 -testSuitePath="Test Suites/CreditCard/CreditCardTestSuite" -executionProfile="Data" -browserType="Firefox" -apiKey="fe1b8469-e0f2-4bf2-a192-9d835691c193" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
 
 ```
-
-
 
 <h3>Thank you</h3>

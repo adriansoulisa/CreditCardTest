@@ -1,6 +1,5 @@
 import com.kms.katalon.core.main.TestCaseMain
 import com.kms.katalon.core.logging.KeywordLogger
-import groovy.lang.MissingPropertyException
 import com.kms.katalon.core.testcase.TestCaseBinding
 import com.kms.katalon.core.driver.internal.DriverCleanerCollector
 import com.kms.katalon.core.model.FailureHandling
@@ -19,7 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/00/gc_pk5v97jx69v779rx2l3gh01xj_t/T/Katalon/Include/features/BDD/SuccessTransaction.feature/20210206_022318/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/00/gc_pk5v97jx69v779rx2l3gh01xj_t/T/Katalon/20210206_122625/execution.properties')
 
 TestCaseMain.beforeStart()
-TestCaseMain.runFeatureFile('Include/features/BDD/SuccessTransaction.feature')
+
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    

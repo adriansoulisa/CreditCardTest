@@ -1,0 +1,93 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "c4da0040-f6dc-454f-b53f-496aadb985cc",
+        "line": 5,
+        "name": "Checkout unsuccessfull Credit Card",
+        "description": "",
+        "id": "credit-card-unsuccess;checkout-unsuccessfull-credit-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2673413717,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to checkout the pillow",
+            "match": {
+              "location": "UnSuccessTransaction.I_want_to_checkout_the_pillow()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a355a448-6f9e-49d8-9970-b4021cc7019f"
+          },
+          {
+            "result": {
+              "duration": 1546257295,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click checkout in the shooping cart page",
+            "match": {
+              "location": "UnSuccessTransaction.I_click_checkout_in_the_shooping_cart_page()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "65bb0f1f-034f-4d63-b75c-b26cb1d5d3b9"
+          },
+          {
+            "result": {
+              "duration": 5083032972,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click credit card method and insert the numbers",
+            "match": {
+              "location": "UnSuccessTransaction.I_click_credit_card_method_and_insert_the_numbers()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "bb669a2f-6804-454f-a5fb-1baec2c6d30a"
+          },
+          {
+            "result": {
+              "duration": 93316310,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the transaction will be unsuccessfull",
+            "match": {
+              "location": "UnSuccessTransaction.Verify_the_transaction_will_be_unsuccessfull()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "4a39fca8-cd74-422b-8527-1d88358dc2dd"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UnsuccessTransaction"
+          },
+          {
+            "name": "@UnsuccessTransaction"
+          }
+        ]
+      }
+    ],
+    "name": "Credit Card Unsuccess",
+    "description": "  I want to unsuccess transaction",
+    "id": "credit-card-unsuccess",
+    "keyword": "Feature",
+    "uri": "/Users/adrian.soulisa/Music/CreditCardTest/Include/features/BDD/UnsuccessfullTransaction.feature",
+    "tags": [
+      {
+        "name": "@UnsuccessTransaction",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

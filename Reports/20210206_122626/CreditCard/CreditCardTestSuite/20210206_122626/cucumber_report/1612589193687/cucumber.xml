@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.181128">
+<testcase classname="Credit Card Success" name="Checkout CreditCard" time="11.181128">
+<system-out><![CDATA[Given I want to checkout pillow.............................................passed
+When I click checkout in the shooping cart..................................passed
+And I click credit card method and insert the number........................passed
+Then Verify the transaction will be successfull.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
