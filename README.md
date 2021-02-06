@@ -36,5 +36,11 @@ git clone <url repository> <folder tujuan>
 <img src="images/Screen Shot 2021-02-06 at 02.58.47.png" width="300" height="150">
 
 
+./katalonc -noSplash -runMode=console -projectPath="/Users/adrian.soulisa/Music/CreditCardTest/testing.prj" -retry=0 -testSuitePath="Test Suites/CreditCard/CreditCardTestSuite" -executionProfile="Data" -browserType="Chrome" -apiKey="fe1b8469-e0f2-4bf2-a192-9d835691c193" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
+
+./katalonc -noSplash -runMode=console -projectPath="/Users/adrian.soulisa/Music/CreditCardTest/testing.prj" -retry=0 -testSuitePath="Test Suites/CreditCard/CreditCardTestSuite" -executionProfile="Data" -browserType="Firefox" -apiKey="fe1b8469-e0f2-4bf2-a192-9d835691c193" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
+
+
+
 
 <h3>Thank you</h3>
